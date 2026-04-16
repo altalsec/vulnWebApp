@@ -18,8 +18,16 @@ A Flask-based Security Operations Center (SOC) dashboard demo with:
 
 ## Quick Setup
 
-### 1. Install Python dependencies
+### 1. Install Python dependencies / Create virtual environment
 ```bash
+python -m venv vulnWebApp
+source vulnWebApp/Scripts/Activate
+pip install -r requirements.txt
+```
+OR Windows
+```cmd
+python -m venv vulnWebApp
+.\\vulnWebApp\Scripts\Activate
 pip install -r requirements.txt
 ```
 
